@@ -1,0 +1,50 @@
+/*Media Quesries*/
+* {
+  box-sizing: border-box;
+}
+.columnformedia {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
+.rowformedia:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  .columnformedia {
+      width: 100%;
+  }
+}
+/*End of Media Queries*/
+/*Animation Stuff*/
+.slideup:hover .mainimage {
+  -webkit-transform: scale(0.65) translateY(-125px);
+    transform: scale(0.65) translateY(-125px);
+}
+.slideup:hover .maincard {
+  transform: translateY(-125px);
+  opacity: 1;
+}
+/*End of Animation Stuff*/
+.parafont {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1d1d1d;
+}
+.headfont {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.linkfont {
+  text-decoration: none;
+  color: dodgerblue;
+}
+.mainimage {
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+}
+.maincard {
+  transition: display 1s, opacity 1s, transform 1s;
+  opacity: 0;
+}
