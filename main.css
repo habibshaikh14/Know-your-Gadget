@@ -28,6 +28,22 @@
   width: 33%;
   padding: 20px;
 }
+/*flowchart page elements*/
+.columnforflowchart {
+  float: left;
+  margin-left: 10%;
+  width: 15%;
+  padding: 20px;
+}
+.columnforflowcharttext {
+  float: left;
+  margin-left: 10%;
+  width: 60%;
+  padding: 20px;
+}
+.flowchartimg {
+  width: 100%;
+}
 .divforform {
   border: solid 1px #1d1d1d;
   background: #ccf5ffbb;
@@ -62,6 +78,10 @@
   }
   .divformainlogo {
     margin-left: 0%; 
+    width: 100%;
+  }
+  .columnforflowchart {
+    margin-left: 0%;
     width: 100%;
   }
 }
