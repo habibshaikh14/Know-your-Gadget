@@ -7,6 +7,15 @@
   width: 33%;
   padding: 20px;
 }
+.divforform {
+  border: solid 1px #1d1d1d;
+  background: #ccf5ffbb;
+  border-radius: 10px;
+  padding: 1%;
+  margin-left: 30%;
+  width: 40%;
+  box-shadow: 8px 10px #5555557a;
+}
 .rowformedia:after {
   content: "";
   display: table;
@@ -14,6 +23,10 @@
 }
 @media screen and (max-width: 768px) {
   .columnformedia {
+      width: 100%;
+  }
+  .divforform {
+      margin-left: 0%;
       width: 100%;
   }
 }
@@ -49,6 +62,43 @@
   opacity: 0;
 }
 /*Coloring stuff*/
-
-
+.text {
+	color: #1d1d1d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+}
+.formbodytext {
+  color: #242019;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: right;
+  margin-right: 10%;
+}
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 8px 0;
+  border: 1px solid #949494;
+  border-radius: 4px;
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border: 3px solid #3d95fa;
+}
+.btn {
+	background: linear-gradient(#F2C963,#d8a525);
+  width: 50%;
+  border: none;
+  color: #1d1d1d;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5%;
+  cursor: pointer;
+	border-radius: 3px;
+}
+.btn:hover {
+	background: linear-gradient(#F2C963,#d8a525);
+}
 /*End of Coloring Stuff*/
