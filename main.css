@@ -2,6 +2,27 @@
 * {
   box-sizing: border-box;
 }
+.imgmain {
+  width: 60%
+}
+.divformainlogo {
+  margin-left: 40%;
+  width: 20%;
+}
+/*column for main images*/
+.columnformain1 {
+  float: left;
+  padding: 0px; 
+  width: 42%;
+}
+/*column for main images*/
+.columnformain2 {
+  float: left;
+  padding: 0px; 
+  width: 42%;
+  margin-left: 16%;
+}
+/*column for 2nd page elements*/
 .columnformedia {
   float: left;
   width: 33%;
@@ -28,6 +49,20 @@
   .divforform {
       margin-left: 0%;
       width: 100%;
+  }
+  .columnformain1 {
+    width: 100%;
+  }
+  .columnformain2 {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .imgmain {
+    width: 100%;
+  }
+  .divformainlogo {
+    margin-left: 0%; 
+    width: 100%;
   }
 }
 /*End of Media Queries*/
